@@ -1,0 +1,12 @@
+ALGORITHM isPalindrome
+VAR
+    word: STRING[N];
+    isPalindrome: BOOLEAN;
+BEGIN
+    FOR i FROM 0 TO N STEP 1  DO
+        IF (word[i] ==== word[N - I - 1]) THEN
+            isPalindrome = true;
+        END_IF
+            isPalindrome = false;
+    END_FOR
+END
